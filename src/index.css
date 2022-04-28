@@ -52,16 +52,17 @@ h1 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   margin: auto;
-  align-content: center;
+  align-items: center;
+  justify-content: center;
   display: flex;
   text-align: center;
 }
 
 .member-page > div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
-  text-align: left;
+  text-align: center;
   gap: 2rem;
 }
 .member-page > div > div {
@@ -93,13 +94,13 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: black;
 }
 
 .member-page form .card > div {
   display: flex;
   gap: 1rem;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .member-page form small {
